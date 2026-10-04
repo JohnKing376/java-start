@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
         // int x = 1;
@@ -54,21 +56,40 @@ class Main {
 
         // switch statements
 
-        String role = "admin";
+        // String role = "admin";
 
-        switch (role) {
-            case "admin":
-                System.out.println("You are an Admin lol");
-                break;
-            case "moderator":
-                System.out.println("You are a moderator");
-                break;
-            default:
-                System.out.println("you are a guest");
-        }
+        // switch (role) {
+        //     case "admin":
+        //         System.out.println("You are an Admin lol");
+        //         break;
+        //     case "moderator":
+        //         System.out.println("You are a moderator");
+        //         break;
+        //     default:
+        //         System.out.println("you are a guest");
+        // }
 
 
+        // loops
 
+        // for(int i = 0; i < 5; i++)
+        //     System.out.println("Hello World " + i);
+
+        // int i = 5;
+        // while(i > 0) {
+        //     System.out.println("Hello World " + i);
+        //     i--;
+        // }
+
+        
+        // Scanner scanner = new Scanner(System.in);
+        // String input = "";
+
+        // while(!input.equals("quit")) {
+        //     System.out.print("What us your number? ");
+        //     int number = scanner.nextInt();
+        //     System.out.println(number);
+        // }
         
     }
 }
